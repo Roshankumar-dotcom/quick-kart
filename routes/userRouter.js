@@ -5,7 +5,7 @@ const { register, login } = require("../controller/authController");
 
 Router.get("/",(req,res)=>{
 
-  res.send("deployed");
+  res.send("Deployed By Roshan Kumar");
 
 })
 Router.post("/register", register);
